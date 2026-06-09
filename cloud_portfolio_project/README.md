@@ -36,3 +36,5 @@ portfolio/
 ## Azure Static Website flow
 
 Resource Group -> Storage Account -> Static website -> Upload files to $web -> Open endpoint
+
+https://sscnvs8.z29.web.core.windows.net/ - my portfolio website
