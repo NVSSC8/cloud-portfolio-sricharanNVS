@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloud & DevOps Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">A</div>
+      <div>
+        <div class="brand-title">Aspiring Azure Cloud & DevOps Engineer</div>
+        <div class="brand-subtitle">GitHub-driven portfolio</div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button id="themeToggle" class="btn btn-ghost" type="button">Dark mode</button>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <div class="hero-copy">
+        <span class="pill">Beginner Microsoft Candidate • Azure • DevOps • Multi-Cloud</span>
+        <h1>Building a real cloud engineering portfolio from hands-on projects and GitHub repositories.</h1>
+        <p class="lead">
+          I am an aspiring Microsoft Azure Cloud & DevOps Engineer focused on Azure, Kubernetes, Docker,
+          CI/CD, VM Scale Sets, monitoring, networking, and GitHub Copilot-assisted learning.
+          This portfolio is designed to update automatically from GitHub whenever new repositories,
+          READMEs, screenshots, or project details are added.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="hero-note">
+          GitHub username:
+          <input id="NVSSC8" class="input-inline" value="NVSSC8" />
+          <button id="loadGithub" class="btn btn-small" type="button">Load GitHub Data</button>
+        </div>
+      </div>
+
+      <aside class="hero-side card-inner">
+        <img id="avatar" class="avatar" src="https://avatars.githubusercontent.com/u/583231?v=4" alt="GitHub profile avatar" />
+        <h2 id="profileName">Your Name</h2>
+        <p id="profileBio">Profile bio will load from GitHub.</p>
+        <div class="mini-grid">
+          <div><strong id="followers">0</strong><span>Followers</span></div>
+          <div><strong id="following">0</strong><span>Following</span></div>
+          <div><strong id="reposCount">0</strong><span>Repositories</span></div>
+          <div><strong id="starsCount">0</strong><span>Stars</span></div>
+        </div>
+        <a id="profileLink" class="btn btn-link" href="#" target="_blank" rel="noreferrer">Open GitHub Profile</a>
+      </aside>
+    </section>
+
+    <section id="about" class="grid-2">
+      <div class="card section-card">
+        <h2>About Me</h2>
+        <p>
+          I am a beginner Microsoft Azure candidate learning cloud, DevOps, DevSecOps, Kubernetes, Docker,
+          networking, and automation through hands-on projects and real troubleshooting.
+        </p>
+        <p>
+          My goal is to showcase practical work, not just theory, with a portfolio that grows as my GitHub
+          repositories grow.
+        </p>
+      </div>
+
+      <div class="card section-card">
+        <h2>Certifications</h2>
+        <div class="chip-grid">
+          <span class="chip">AZ-900</span>
+          <span class="chip">Azure AI Fundamentals</span>
+          <span class="chip">Microsoft AI Skills Fest</span>
+          <span class="chip">GitHub Copilot Learning</span>
+          <span class="chip">Azure Admin Track</span>
+          <span class="chip">DevOps Track</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="card section-card">
+      <div class="section-head">
+        <h2>Portfolio Metrics</h2>
+        <p>Live counts sourced from GitHub and project analysis.</p>
+      </div>
+      <div class="metrics">
+        <div class="metric"><strong id="metricProjects">0</strong><span>Projects</span></div>
+        <div class="metric"><strong id="metricRepos">0</strong><span>Repositories</span></div>
+        <div class="metric"><strong id="metricServices">18+</strong><span>Azure Services</span></div>
+        <div class="metric"><strong id="metricLabs">Hands-on</strong><span>Learning Style</span></div>
+      </div>
+    </section>
+
+    <section id="projects" class="card section-card">
+      <div class="section-head">
+        <h2>Featured GitHub Projects</h2>
+        <p>Projects are generated automatically from your repositories.</p>
+      </div>
+      <div id="projectsGrid" class="projects-grid">
+        <article class="project-skeleton">Loading GitHub repositories...</article>
+      </div>
+    </section>
+
+    <section id="services" class="card section-card">
+      <div class="section-head">
+        <h2>Services Explored</h2>
+        <p>These services can be mentioned in your documentation and portfolio summary.</p>
+      </div>
+      <div class="chip-grid services">
+        <span class="chip">Resource Groups</span>
+        <span class="chip">Virtual Machines</span>
+        <span class="chip">VM Scale Sets</span>
+        <span class="chip">Availability Zones</span>
+        <span class="chip">Virtual Networks</span>
+        <span class="chip">Subnets</span>
+        <span class="chip">NSGs</span>
+        <span class="chip">VPN Gateway</span>
+        <span class="chip">Local Network Gateway</span>
+        <span class="chip">Azure Load Balancer</span>
+        <span class="chip">Azure Front Door</span>
+        <span class="chip">Storage Account</span>
+        <span class="chip">Static Website</span>
+        <span class="chip">Azure App Service</span>
+        <span class="chip">AKS</span>
+        <span class="chip">Azure Monitor</span>
+        <span class="chip">Log Analytics</span>
+        <span class="chip">Azure DevOps</span>
+        <span class="chip">Docker</span>
+        <span class="chip">Kubernetes</span>
+        <span class="chip">GitHub Actions</span>
+        <span class="chip">GitHub Copilot</span>
+      </div>
+    </section>
+
+    <section id="journey" class="card section-card">
+      <div class="section-head">
+        <h2>Learning Journey</h2>
+        <p>A timeline that reflects the growth of a beginner Microsoft cloud candidate.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item"><span>Azure Fundamentals</span></div>
+        <div class="timeline-item"><span>Linux & Git</span></div>
+        <div class="timeline-item"><span>Docker</span></div>
+        <div class="timeline-item"><span>Kubernetes</span></div>
+        <div class="timeline-item"><span>AKS</span></div>
+        <div class="timeline-item"><span>Azure Networking</span></div>
+        <div class="timeline-item"><span>Azure DevOps</span></div>
+        <div class="timeline-item"><span>CI/CD</span></div>
+        <div class="timeline-item"><span>VMSS & Autoscaling</span></div>
+        <div class="timeline-item"><span>DevSecOps & Multi-Cloud</span></div>
+      </div>
+    </section>
+
+    <section class="card section-card">
+      <div class="section-head">
+        <h2>How the Portfolio Updates Automatically</h2>
+      </div>
+      <div class="flow">
+        <div class="flow-box">GitHub Repository Update</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-box">GitHub API Fetch</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-box">Portfolio Refresh</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-box">Azure Static Website</div>
+      </div>
+    </section>
+
+    <section id="contact" class="card section-card">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Keep the links updated in your GitHub profile and resume.</p>
+      </div>
+      <div class="contact-grid">
+        <a class="contact-card" href="https://www.linkedin.com/in/sricharan-9s287" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="contact-card" id="githubRepoLink" href="#" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="contact-card" href="nvsscrs007@gmail.com">Email</a>
+        <a class="contact-card" href="#" download>Resume</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built with HTML, CSS, JavaScript, GitHub API, Azure Static Website Hosting, and GitHub Copilot-assisted learning.</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
