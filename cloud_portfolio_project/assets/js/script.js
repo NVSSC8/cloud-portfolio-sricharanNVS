@@ -66,7 +66,7 @@ function renderRepoCard(repo, readmeHtml = "") {
 }
 
 async function loadGitHubProfile() {
-  const username = $("githubUsername").value.trim();
+  const username = $("githubusername").value.trim();
   if (!username || username === "YOUR_GITHUB_USERNAME") {
     alert("Please enter your GitHub username.");
     return;
